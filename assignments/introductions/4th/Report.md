@@ -19,3 +19,7 @@ adb pull /sdcard/DCIM/Camera/IMG_20130408_115107.jpg ~/Downloads
 課題用サンプルプロジェクトの apk ファイルをコマンド経由で端末にインストールする
 
 adb install AndroidTraining/practice/introductions/3rd/firstApp/firstApp.apk
+
+インストールしたアプリを、コマンド経由でアンインストールする
+
+adb uninstall jp.kitaindia.firstapp
